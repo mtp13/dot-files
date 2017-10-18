@@ -1,10 +1,1 @@
-export PATH="$HOME/bin:/usr/local/bin:$PATH"
-export EDITOR='atom --wait'
-export LANG=en_US.UTF-8
-export HISTCONTRL='ignoreboth:erasedups'
-export PYTHONSTARTUP=~/.pystartup
-alias ls="ls -AFGh"
-alias cdwork="cd /Volumes/Media\ Disk/work"
-alias cdprojects="cd /Users/mtp/Documents/Developer/projects"
-alias cdtp="cd /Users/mtp/Documents/Developer/projects/Think\ Python"
-alias h="history"
+[ -n "$PS1" ] && source ~/.bash_profile;
