@@ -9,10 +9,11 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Documents"
+alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias p="cd ~/Documents/Developer/projects"
 alias g="git"
 
 # Detect which `ls` flavor is in use
@@ -150,9 +151,6 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-
-
 alias cdwork="cd /Volumes/Media\ Disk/work"
-alias cdprojects="cd /Users/mtp/Documents/Developer/projects"
 alias cdtp="cd /Users/mtp/Documents/Developer/projects/Think\ Python"
 alias h="history"
