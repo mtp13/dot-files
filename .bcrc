@@ -1,0 +1,9 @@
+# bc calculator startup file
+# loads via environmental variable BC_ENV_ARGS
+# see .bash_profile
+
+scale=4
+
+# convert temperatures fahrenheit and celsius
+define c(t) { scale=1; return (t-32)*5/9; }
+define f(t) { scale=1; return (t*9/5+32); }
