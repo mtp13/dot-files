@@ -152,5 +152,6 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 alias cdwork="cd /Volumes/Media\ Disk/work"
-alias cdtp="cd /Users/mtp/Documents/Developer/projects/Think\ Python"
+alias cdtp="cd ~/Documents/Developer/projects/Think\ Python"
 alias h="history"
+alias dotfiles="cd ~/dotfiles"
