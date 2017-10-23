@@ -154,4 +154,4 @@ alias path='echo -e ${PATH//:/\\n}'
 alias cdwork="cd /Volumes/Media\ Disk/work"
 alias cdtp="cd ~/Documents/Developer/projects/Think\ Python"
 alias h="history"
-alias dotfiles="cd ~/dotfiles"
+alias dot="cd ~/dotfiles"
