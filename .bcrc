@@ -2,6 +2,7 @@
 # loads via environmental variable BC_ENV_ARGS
 # see .bash_profile
 
+# use four decimal places
 scale=4
 
 # convert temperatures fahrenheit and celsius
